@@ -1,0 +1,1 @@
+ALTER TABLE "my_schema_new"."complaint" ALTER COLUMN "imageb64" SET DATA TYPE text;

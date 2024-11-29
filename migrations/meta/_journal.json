@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1725024939793,
+      "tag": "0000_cloudy_impossible_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1725027030152,
+      "tag": "0001_black_golden_guardian",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1725038187197,
+      "tag": "0002_bumpy_natasha_romanoff",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1725040542480,
+      "tag": "0003_numerous_maximus",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1725044903139,
+      "tag": "0004_lying_giant_girl",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1725143756421,
+      "tag": "0005_premium_bruce_banner",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1725144081019,
+      "tag": "0006_omniscient_proudstar",
+      "breakpoints": true
+    }
+  ]
+}

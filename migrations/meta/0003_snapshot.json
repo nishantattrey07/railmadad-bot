@@ -1,0 +1,219 @@
+{
+  "id": "0b147cee-4455-4156-9636-b99bf3319efc",
+  "prevId": "c307dd61-3c38-40bf-81fe-1481c0c579f3",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "my_schema_new.complaint": {
+      "name": "complaint",
+      "schema": "my_schema_new",
+      "columns": {
+        "PNR": {
+          "name": "PNR",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "uuid": {
+          "name": "uuid",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "department": {
+          "name": "department",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "subtype": {
+          "name": "subtype",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "oneLineAI": {
+          "name": "oneLineAI",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "originalQuery": {
+          "name": "originalQuery",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "severity": {
+          "name": "severity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "feedback": {
+          "name": "feedback",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "stars": {
+          "name": "stars",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "my_schema_new.pnr": {
+      "name": "pnr",
+      "schema": "my_schema_new",
+      "columns": {
+        "PNR": {
+          "name": "PNR",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "age": {
+          "name": "age",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "gender": {
+          "name": "gender",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "isdisable": {
+          "name": "isdisable",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "jDate": {
+          "name": "jDate",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "passengerName": {
+          "name": "passengerName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "trainNumber": {
+          "name": "trainNumber",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "coach": {
+          "name": "coach",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "seat": {
+          "name": "seat",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "departureStation": {
+          "name": "departureStation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "departureDate": {
+          "name": "departureDate",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "arrivalStation": {
+          "name": "arrivalStation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "arrivalDate": {
+          "name": "arrivalDate",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "bookingStatus": {
+          "name": "bookingStatus",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "bookingDate": {
+          "name": "bookingDate",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {
+    "my_schema_new": "my_schema_new"
+  },
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

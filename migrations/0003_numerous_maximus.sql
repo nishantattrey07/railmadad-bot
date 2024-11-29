@@ -1,0 +1,1 @@
+ALTER TABLE "my_schema_new"."complaint" ADD COLUMN "severity" text NOT NULL;
